@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cliker</string>
+    <string name="ClcButton">Click me</string>
+    <string name="clicl_me"> + </string>
+    <string name="Minus_button"> - </string>
+    <string name="KillButton"> kill </string>
+
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:text="Кликов: 0"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <Button
+        android:id="@+id/ClkButton"
+        android:layout_width="107dp"
+        android:layout_height="108dp"
+        android:layout_marginBottom="263dp"
+        android:backgroundTint="#3C92B8"
+        android:contentDescription="@string/ClcButton"
+        android:text="@string/clicl_me"
+
+
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainText"
+        app:layout_constraintVertical_bias="0.896" />
+
+    <Button
+        android:id="@+id/MinusButton"
+        android:layout_width="107dp"
+        android:layout_height="108dp"
+        android:layout_marginBottom="263dp"
+        android:backgroundTint="#3C92B8"
+
+        android:text="@string/Minus_button"
+
+
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainText"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <Button
+        android:id="@+id/Kill"
+        android:layout_width="107dp"
+        android:layout_height="108dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="#3C92B8"
+
+        android:contentDescription="@string/KillButton"
+        android:text="@string/KillButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent" />/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
